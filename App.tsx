@@ -1,9 +1,11 @@
-import { View, Text } from 'react-native';
+import React from 'react';
+import { View } from 'react-native';
+import StartScreen from './src/screens/startScreen'; 
 
 export default function App() {
   return (
-    <View className="flex-1 justify-center items-center bg-blue-500">
-      <Text className="text-white text-xl">Hello NativeWind 🎉</Text>
+    <View className="flex-1">
+      <StartScreen />
     </View>
   );
 }

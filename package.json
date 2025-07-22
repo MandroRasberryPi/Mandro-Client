@@ -9,10 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/slider": "^4.5.7",
     "expo": "~53.0.20",
     "expo-status-bar": "~2.2.3",
+    "native": "^0.3.3",
+    "nativewind": "^4.1.23",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-native": "0.79.5",
+    "tailwindcss": "^3.4.17",
+    "expo-dev-client": "~5.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
